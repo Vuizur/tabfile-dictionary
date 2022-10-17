@@ -1,1 +1,1 @@
-from dictionary import *
+from tabfile_dictionary.dictionary import *
