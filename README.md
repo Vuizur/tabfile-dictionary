@@ -10,7 +10,7 @@ Testing it with a large dictionary, initializing it takes about 3-4 seconds, but
 Install it using `git+https://github.com/Vuizur/tabfile-dictionary`
 
 ```
-from tabfile_dictionary.dictionary import TabfileDictionary
+from tabfile_dictionary import TabfileDictionary
 
 dictionary = TabfileDictionary("spa_eng.txt")
 
