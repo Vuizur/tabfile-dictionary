@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "tabfile-dictionary"
+version = "0.1.0"
+description = ""
+authors = ["Vuizur <Vuizur@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "tabfile_dictionary"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^0.982"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
