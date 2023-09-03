@@ -1,4 +1,5 @@
 
+from __future__ import annotations
 from dataclasses import dataclass
 import sqlite3
 
@@ -8,7 +9,7 @@ class Entry:
     definition: str
 
 class TabfileDictionary:
-    def __init__(self, filename: str, in_memory = True, temp_sqlite_path = None):
+    def __init__(self, filename: str, in_memory: bool = True, temp_sqlite_path: str | None = None):
         self.filename = filename
         self.in_memory = in_memory
         self.temp_sqlite_path = temp_sqlite_path
